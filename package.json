@@ -1,0 +1,29 @@
+{
+  "name": "startup-form",
+  "version": "1.0.0",
+  "description": "automated form with sendmail and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveunixson/startup-form.git"
+  },
+  "author": "unixson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveunixson/startup-form/issues"
+  },
+  "homepage": "https://github.com/steveunixson/startup-form#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-static": "^1.2.5",
+    "mongoose": "^5.0.16",
+    "morgan": "^1.9.0",
+    "sendmail": "^1.4.1",
+    "winston": "^2.4.2"
+  }
+}

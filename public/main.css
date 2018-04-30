@@ -1,0 +1,73 @@
+/*Contact sectiom*/
+
+body {
+    background: rgb(159,69,252);
+  background: linear-gradient(90deg, rgba(159,69,252,1) 0%, rgba(180,58,58,1) 58%);
+  color: #f1f1f1;
+}
+
+#bgr-vid {
+    position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      
+  }
+
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+      font-family: 'Teko', sans-serif;
+    padding-top: 250px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;
+      color : #fff;    
+  }
+  .contact-section{
+    padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  .form-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.form-control {
+      height: 135px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  
+  }
+  
