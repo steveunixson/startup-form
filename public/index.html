@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    
-<!------ Include the above in your HEAD tag ---------->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	
 
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
    	<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
        <link href="main.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Submit Form</title>
 </head>
 <body>
     
@@ -35,26 +35,27 @@
 					<div class="col-md-6 form-line">
 			  			<div class="form-group">
 			  				<label for="exampleInputUsername">Имя</label>
-					    	<input type="text" class="form-control" id="username" placeholder=" Enter Name">
+					    	<input type="text" class="form-control" id="username" name="name" placeholder=" Enter Name">
 				  		</div>
 				  		<div class="form-group">
 					    	<label for="exampleInputEmail">Твоя почта</label>
-					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+					    	<input type="email" class="form-control" id="email" name="email" placeholder=" Enter Email id">
 					  	</div>	
 					  	<div class="form-group">
 					    	<label for="telephone">Номер телефона.</label>
-					    	<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+					    	<input type="tel" class="form-control" id="number" name="number" placeholder=" Enter 10-digit mobile no.">
 			  			</div>
 			  		</div>
 			  		<div class="col-md-6">
 			  			<div class="form-group">
 			  				<label for ="description"> Расскажи о себе</label>
-			  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+			  			 	<textarea  class="form-control" id="about" name="about" placeholder="Enter Your Message"></textarea>
 			  			</div>
 			  			<div>
 
-			  				<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Погнали</button>
-			  			</div>
+			  				<button type="button" onclick="postUser()" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Погнали</button>
+							  <script src="index.js"></script>
+						</div>
 			  			
 					</div>
 				</form>
