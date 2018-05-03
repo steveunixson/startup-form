@@ -21,7 +21,7 @@ exports.createUser = function (req, res) {
       nick.save(function (err) {
         if (!err) {
             log.info("user created");
-            sendEmail();
+            sendEmail(req, res);
             res.send('OK')
         } else {
             console.log(err);
